@@ -1,0 +1,79 @@
+* { box-sizing: border-box; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    color: #222;
+}
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header h2 { margin: 0; font-size: 20px; }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 14px;
+}
+nav a:hover { text-decoration: underline; }
+
+.container {
+    max-width: 900px;
+    margin: 24px auto;
+    background: #fff;
+    padding: 24px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}
+
+.search-form, .student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.search-form { flex-direction: row; align-items: center; flex-wrap: wrap; }
+.search-form input[type=text] { flex: 1; padding: 8px; }
+
+.student-form label { font-size: 13px; font-weight: bold; margin-top: 6px; }
+.student-form input {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button, .btn-reset {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #2c3e50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+button:hover, .btn-reset:hover { background: #1a252f; }
+
+.error-box {
+    background: #fdecea;
+    border: 1px solid #f5c2c0;
+    color: #a94442;
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; font-size: 14px; }
+th { background: #f0f0f0; }
+td a { color: #2c3e50; margin-right: 4px; }
