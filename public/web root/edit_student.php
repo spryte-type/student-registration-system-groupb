@@ -2,7 +2,7 @@
 require_once 'db.php';
 
 $errors = [];
-$id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+$id = isset($_GET['id']) ? (int)$_GET['id'] : (isset($_POST['id']) ? (int)$_POST['id'] : 0);
 
 if ($id <= 0) {
     header("Location: index.php");
