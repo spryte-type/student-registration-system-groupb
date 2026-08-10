@@ -16,6 +16,8 @@ if (!empty($search)) {
 
 $stmt->execute();
 $result = $stmt->get_result();
+$stmt->close();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
