@@ -11,6 +11,7 @@ The **Student Registration System** is a decoupled two-tier web application buil
 ---
 
 ## Architecture Diagram
+```
 [ Internet / User Browser ]
 │
 ▼ (Port 80 HTTP)
@@ -24,7 +25,7 @@ The **Student Registration System** is a decoupled two-tier web application buil
 │    AWS RDS Instance   │  <-- Managed MySQL Database
 │  (groupb-student-db)  │  <-- Database Name: student_db
 └───────────────────────┘
-
+```
 ---
 
 ## Database Schema (`schema.sql`)
