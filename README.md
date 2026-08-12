@@ -101,7 +101,6 @@ Capture these final screenshots from your AWS Console, PowerShell/Terminal, and 
 | **AWS RDS** | `rds-database-summary.png` | RDS Databases page showing `groupb-student-db` with Status **Available**. |
 | **AWS RDS** | `rds-endpoint.png` | Connectivity & security tab displaying the full Endpoint URL. |
 | **AWS RDS** | `rds-security-group.png` | Inbound rules tab of `rds-sec-group` showing Port 3306 allowed from `ec2-web-sec-group`. |
-| **Terminal** | `ssh-login-status.png` | Terminal showing successful login (`ec2-user@ip-172-31-26-193`) and output of `sudo systemctl status httpd` showing **active (running)**. |
 | **Terminal** | `files-and-db-php.png` | Terminal showing output of `ls -la /var/www/html` and `cat /var/www/html/db.php` displaying configured RDS credentials. |
 | **Live UI** | `app-home-page.png` | Browser loading `[http://100.48.100.71/](http://100.48.100.71/)` displaying the Student Registration main interface. |
 | **Live UI** | `app-crud-actions.png` | Registering a student or performing a search/update action to prove live database persistence. |
