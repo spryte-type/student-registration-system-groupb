@@ -29,7 +29,7 @@ The **Student Registration System** is a decoupled two-tier web application buil
 ---
 
 ## Database Schema (`schema.sql`)
-``sql
+```sql
 CREATE DATABASE IF NOT EXISTS student_db;
 USE student_db;
 
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS students (
     email VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 ## Deployment Steps Executed
 
 ### Phase 1: Managed Database Provisioning (Amazon RDS)
